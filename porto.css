@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(244, 207, 252);
+margin: px;
+padding: px;
+}
+.contener{
+    margin: px;
+    padding: 0px;
+    
+}
+.h3{
+    color: blueviolet;
+    margin-left: 77px;
+    margin-top: -47px;
+    font-size: 25px;
+    
+}
+.navbar{
+    height:80px;
+    width: 100%;
+    background-color: white;
+    
+}
+.logo{
+    margin-left: 20px;
+}
+.ul_li_a{
+    display: flex;
+    
+    margin-left: 180px;
+    margin-top: -20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.a1, .a2, .a3, .a4, .a5{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 75px;
+    gap: 5px;
+    font-weight: bold;
+    
+}
+.demi_cercle{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    margin-left: 139px;
+    border-radius: 50%;
+    margin-top: -180px;
+}
+.discutons{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color:black ;
+    color: white;
+    margin-left: 1050px;
+    margin-right: 100px;
+    margin-top: -58px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.image{
+    margin-left: 550px;
+    margin-top: -150px;
+}
+#presentation{
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    margin-left: 100px;
+    gap: 20px;
+    color:black;
+
+}
+.paragraf_1{
+    max-width: 400px;
+    font-size: 18px;
+}
+.titre_2{
+    font-size: 25px;
+
+}
+.titre_1{
+    font-size: 50px;
+}
+.nom{
+    color: blueviolet;
+}
+.cases_2{
+display: flex;
+gap:20px ;
+margin-top: 10px;
+}
+.caz1{
+border-style: solid;
+border-width: 1px;
+background-color: black;
+padding: 10px;
+width: 150px;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+.caz2{
+border-style: solid;
+border-width: 2px;
+background-color: white;
+padding: 10px;
+width: 150px;
+font-weight: bold;
+text-align: center;
+
+}
+#a_propos{
+    display: flex;
+    margin-top: 75px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    height: 450px;
+    color: white;
+    background-color: rgb(0, 9, 17);
+    justify-content: center;
+}
+.para_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h_2{
+margin-top: 70px;
+font-size: 25px;
+font-weight: bold;
+}
+.para_demoi{    
+max-width: 800px;
+font-size: 20px;
+margin-top: 10px;
+}
+.chiffres{
+    display: flex;
+    gap: 200px;
+    margin-top: -200px;
+    justify-content: center;
+    color: rgb(244, 207, 252);
+}
+.c1, .c4, .c0{
+    display: flex;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 35px;
+    text-align: center;
+    flex-direction: column;
+
+}
+.pro, .mois, .cli{
+    text-decoration: none;
+    font-size: 20px;
+}
+.demicercle{
+   height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    margin-left: 600px;
+    border-radius: 50%;  
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services{
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: -105px;
+    background-color: white;
+    border-color: white;
+
+}
+.tete{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.hservice{
+    font-size: 25px;
+    margin-top: 50px;
+    
+}
+.pservice{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.parti_ser{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 15px;
+    margin-top: 150px;
+    max-width: 500px;
+}
+.
+    
+
+.list{
+    
+    margin-top:-200px ;
+}
+
