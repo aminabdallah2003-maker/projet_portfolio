@@ -183,7 +183,7 @@ margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
-.services{
+#services{
     width: 100%;
     height: 500px;
     border-style: solid;
@@ -250,7 +250,7 @@ margin-top: 90px;
 display: flex;
 flex-direction: column;
 margin-left: 700px;
-margin-top:-170px ;
+margin-top:-155px ;
 max-width: 300px;
 gap: 10px;
 }
@@ -259,9 +259,74 @@ gap: 10px;
     flex-direction: column;
     margin-left: 1050px;
     max-width: 300px;
-    margin-top: -170px;
+    margin-top: -140px;
     gap: 10px;
-
-
+}
+#realisations{
+    width: 100%;
+    height: 250px;
+    border-color:(244, 207, 252) ;
+    background-color:rgb(244, 207, 252);
+   
+}
+.relis{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-top: 50px
+      
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    margin-top: 30px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    margin-left: 120px;
 }
 
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    margin-left: 35px;
+    
+    
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    margin-left: -50px;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+    margin-left: 120px;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    margin-left: 35px;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    margin-left: -50px;
+}
